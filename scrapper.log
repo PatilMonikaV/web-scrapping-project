@@ -5386,3 +5386,44 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 15:36:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 15:36:35] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 15:36:35] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 15:36:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 15:37:01] "POST /review HTTP/1.1" 200 -
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 15:37:04] "POST /review HTTP/1.1" 200 -
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 15:37:46] "POST /review HTTP/1.1" 200 -
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 15:38:38] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:03:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:03:30] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:03:30] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:03:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:03:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:03:49] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:07:24] "POST /review HTTP/1.1" 200 -
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:07:33] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:11:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:11:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.45 - - [21/Dec/2023 16:11:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
